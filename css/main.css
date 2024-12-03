@@ -181,7 +181,7 @@ html, body {
 }
 
 .title-1 {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 
     font-size: 54px;
     font-weight: 700;
@@ -256,7 +256,7 @@ html, body {
 }
 
 
-/* Skills */
+/* Pages */
 
 .title-2 {
     margin-bottom: 18px;
@@ -282,6 +282,10 @@ html, body {
 
 .content-list__item p + p {
     margin-top: 0.5em;
+}
+
+.content-list a {
+    color: var(--accent);
 }
 
 .subtitle {
