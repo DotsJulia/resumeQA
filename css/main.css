@@ -26,6 +26,10 @@ html, body {
     font-family: "DM Sans", sans-serif;
     letter-spacing: -0.5px;
     color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .container {
@@ -66,6 +70,8 @@ html, body {
 
 .nav-list {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
     align-items: center;
     column-gap: 40px;
     font-size: 16px;
@@ -229,6 +235,7 @@ html, body {
 /* Footer */
 
 .footer {
+    margin-top: auto;
     padding: 60px 0 50px;
     background-color: var(--dark-bg);
     color: var(--header-text);
@@ -259,7 +266,7 @@ html, body {
 /* Pages */
 
 .title-2 {
-    margin-bottom: 18px;
+    margin-bottom: 10px;
 
     font-size: 28px;
     font-weight: 700;
@@ -272,11 +279,11 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 30px;
+    row-gap: 20px;
     text-align: center;
 }
 .content-list__item {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.5;
 }
 
