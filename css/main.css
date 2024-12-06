@@ -13,13 +13,18 @@ font-family: "Poppins", sans-serif; */
     --black: #171718;
     --black-border: #26292D;
     --white: #fff;
-    --purple: #5C62EC;
+    /* --purple: #5C62EC; */
+    --purple: #5a5c97;
+    /* --bg-accent: #b3b5ff; */
+    --bg-accent: #54556d;
+
 
     --text-color: var(--black);
     --dark-bg: var(--black);
     --dark-border: var(--black-border);
     --header-text: var(--white);
     --accent: var(--purple);
+    
 
     /* Light mode */
     --page-bg: var(--white);
@@ -31,6 +36,8 @@ font-family: "Poppins", sans-serif; */
     --project-card-text: var(--black);
     
     --box-shadow: 0 5px 35px rgba(0, 0, 0, 0.25);
+
+    --bg-main: var(--accent);
 }
 
 
@@ -44,6 +51,8 @@ font-family: "Poppins", sans-serif; */
     --project-card-text: var(--white);
 
     --box-shadow: 0 5px 35px rgba(0, 0, 0, 0.8);
+
+    --bg-main: var(--bg-accent);
 }
 
 html, body {
@@ -311,7 +320,7 @@ html, body {
 
 .footer {
     margin-top: auto;
-    padding: 30px 0;
+    padding: 15px 0;
     background-color: var(--dark-bg);
     color: var(--header-text);
 }
@@ -377,7 +386,7 @@ html, body {
 /* Resume */
 
 .section__resume {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .container__resume {
@@ -392,22 +401,48 @@ html, body {
     flex-wrap: wrap;
 }
 
-.title-3 {
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
-}
-
 .information {
+    background-color: var(--bg-main);
+    border-radius: 20px;
+
+    color: var(--white);
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    /* align-items: baseline; */
+}
+
+.information__item {
+    padding: 10px 15px;
 }
 
 .education {
     margin: 20px 0;
 }
 
+.education p {
+    padding: 0 15px;
+}
+
+.title-3 {
+    height: 24px;
+    /* background: radial-gradient(var(--accent), var(--white-accept)); */
+    background-color: var(--bg-main);
+    border-radius: 20px;
+    color: var(--white);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
 .skills {
     margin-bottom: 20px;
 }
+
+.list {
+    padding: 0 30px;
+}
+
+.list li {
+    list-style-type: disc;
+  }

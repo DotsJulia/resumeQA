@@ -22,9 +22,9 @@
     }
 
     .btn {
-    height: 30px;
-    padding: 5px 20px;
-    font-size: 14px;
+        height: 30px;
+        padding: 5px 20px;
+        font-size: 14px;
     }
 
     /* main */
@@ -74,5 +74,31 @@
 
     .copyright {
         font-size: 14px;
+    }
+
+    /* Resume */
+
+    .information {
+        align-items: center;
+    }
+
+    .information__item p {
+        font-size: 14px;
+    }
+
+    .list {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 490px) {
+
+    /* Resume */
+    .imgJulia {
+        display: none;
+    }
+
+    .job__title {
+        display: none;
     }
 }
