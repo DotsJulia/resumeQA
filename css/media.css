@@ -82,11 +82,7 @@
         align-items: center;
     }
 
-    .information__item p {
-        font-size: 14px;
-    }
-
-    .list {
+    .information__item p, .education p, .list {
         font-size: 14px;
     }
 }
