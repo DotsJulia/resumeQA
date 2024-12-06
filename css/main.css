@@ -310,7 +310,7 @@ html, body {
 
 .footer {
     margin-top: auto;
-    padding: 60px 0 50px;
+    padding: 30px 0;
     background-color: var(--dark-bg);
     color: var(--header-text);
 }
@@ -371,4 +371,42 @@ html, body {
 
 .subtitle {
     font-weight: 600;
+}
+
+/* Resume */
+
+.section__resume {
+    padding: 40px 0;
+}
+
+.container__resume {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 15px;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title-3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.education {
+    margin: 20px 0;
+}
+
+.skills {
+    margin-bottom: 20px;
 }

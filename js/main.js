@@ -3,7 +3,7 @@ const btnDarkMode = document.querySelector(".dark-mode-btn");
 if(localStorage.getItem('darkMode') === 'dark') {
     btnDarkMode.classList.add("dark-mode-btn--active");
     document.body.classList.add("dark");
-}
+} 
 
 //Проверка темной темы на основе системных настроек
 // if(window.matchMedia && window.matchMedia("(prefers-color-sheme: dark)").matches) {

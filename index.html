@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link rel="icon" type="image/ico" sizes="32x32" href="./img/icons/icon.ico">
+    <title>Резюме</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/media.css">
 </head>
@@ -11,7 +12,7 @@
     <nav class="nav">
         <div class="container">
             <div class="nav-row">
-                <a href="./index.html" class="logo">Portfolio</a>
+                <a href="./index.html" class="logo">Резюме</a>
 
                 <button class="dark-mode-btn">
                     <img class="dark-mode-btn__icon" src="./img/icons/sun.svg" alt="Light mode">
@@ -19,53 +20,65 @@
                 </button>
 
                 <ul class="nav-list">
-                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active">Projects</a></li>
-                    <li class="nav-list__item"><a href="./skills.html" class="nav-list__link">Skills</a></li>
-                    <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link ">Contacts</a></li>
+                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active">Резюме</a></li>
+                    <li class="nav-list__item"><a href="./project.html" class="nav-list__link">Проекты</a></li>
+                    <li class="nav-list__item"><a href="./skills.html" class="nav-list__link">Навыки???</a></li>
+                    <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link ">Контакты</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <header class="header">
-        <div class="header__wrapper">
-            <h1 class="header__title">Hi, my name is <em>Julia</em></h1>
-            <div class="header__text">
-                <p>with passion for learning and creating</p>
+    <main class="section__resume">
+        <div class="container__resume">
+            <div class="resume">
+    
+                <div class="information">
+                    <div class="information__item">
+                        <h1 class="title-2">Доценко Юлия Рамилевна</h1>
+                        <p><strong>Желаемая должность:</strong> Frontend-разработчик</p>
+                    </div>
+                    <div class="information__item">
+                        <p>
+                            Образование: БашГУ<br>
+                            Дата рождения: 12.02.1999<br>
+                            Город: Уфа<br>
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="education">
+                    <h1 class="title-3">Образование</h1>
+                        <p>
+                            Город: Уфа<br>
+                            Форма обучения: Очная<br>
+                            Факультет: Факультет математики и информационных технологий<br>
+                            Специальность: Прикладная математика и информатика<br>
+                        </p>
+                </div>
+    
+                <div class="skills">
+                    <h1 class="title-3">Профессиональные навыки</h1>
+                        <p>
+                            Знание JavaScript <br>
+                            Знание HTML5, CSS3<br>
+                            Адаптивная и кроссбраузерная верстка<br>
+                            Знание команд для работы с Git <br>
+                            Базовые знания React, PHP<br>
+                        </p>
+                </div>
+                
+                <div class="personal-qualities">
+                    <h1 class="title-3">Личные качества</h1>
+                        <p>
+                            Упорство<br>
+                            Трудолюие<br>
+                            Готовность обучаться и развиваться<br>
+                            Сильный интерес к данной сфере<br>
+                        </p>
+                </div>
             </div>
-            <a href="#!" class="btn">Download CV</a>
-        </div>
-    </header>
 
-    <main class="section">
-        <div class="container">
-            <h2 class="title-1">Projects</h2>
-            <ul class="projects">
-                <li class="project">
-                    <a href="./project__1/">
-                        <img class="project__img" src="./img/projects/project__1.png" alt="project__1">
-                        <h3 class="project_title">Designer & Developer</h3>
-                    </a>
-                </li>
-                <li class="project">
-                    <a href="./project__2/">
-                        <img class="project__img" src="./img/projects/project__2.png" alt="project__2">
-                        <h3 class="project_title">Delivery rolls</h3>
-                    </a>
-                </li>
-                <li class="project">
-                    <a href="./project__3/">
-                        <img class="project__img" src="./img/projects/project__3.png" alt="project__3">
-                        <h3 class="project_title">Mogo</h3>
-                    </a>
-                </li>
-                <li class="project">
-                    <a href="./project__4/">
-                        <img class="project__img" src="./img/projects/project__4.png" alt="project__4">
-                        <h3 class="project_title">Velocity</h3>
-                    </a>
-                </li>
-            </ul>
         </div>
     </main>
 
