@@ -82,9 +82,9 @@
         align-items: center;
     }
 
-    .information__item p, , .list {
+    /* .information__item p, .list {
         font-size: 14px;
-    }
+    } */
 }
 
 @media (max-width: 490px) {
@@ -94,7 +94,7 @@
         display: none;
     }
 
-    .job__title {
+    .subtitle-1 {
         display: none;
     }
 }

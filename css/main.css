@@ -385,7 +385,7 @@ html, body {
 
 /* Resume */
 
-.section__resume {
+.resume {
     padding: 20px 0;
 }
 
@@ -395,7 +395,7 @@ html, body {
     padding: 0 15px;
 }
 
-.resume {
+.resume__section {
     /* border: 5px solid var(--accent);
     border-radius: 30px; */
 
@@ -431,7 +431,7 @@ html, body {
     padding: 0 15px;
 }
 
-.title-3 {
+.subtitle-2 {
     height: 24px;
     /* background: radial-gradient(var(--accent), var(--white-accept)); */
     background-color: var(--bg-main);
