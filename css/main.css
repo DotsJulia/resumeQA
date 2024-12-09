@@ -329,13 +329,17 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 27px;
+    row-gap: 15px;
 }
 
 .social {
     display: flex;
     column-gap: 30px;
     align-items: center;
+}
+
+.social__item {
+    width: 30px;
 }
 
 .copyright {
